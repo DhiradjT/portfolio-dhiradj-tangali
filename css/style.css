@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+section.hero {
+    margin-top: 300px;
+}
+
+h3.hero-h3 {
+    color: #707070;
+}
+
+h1.hero-h1 {
+    font-size: 70px;
+    color: #000;
+    font-weight: 700;
+}
+
+h4.hero-h4 {
+    color: #707070;
+    font-weight: 300;
+}
+
+.button-hero a {
+    width: 100px;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s
+}
+
+.button-hero:hover a {
+    color: #707070;
+}
+
+
+
+
+
+section.about {
+    margin-top: 300px;
+}
+
+li {
+    list-style: none;
+}
+
+
+section.projects {
+    margin-top: 300px;
+}
+
+h2.section-header {
+    font-weight: 700;
+}
