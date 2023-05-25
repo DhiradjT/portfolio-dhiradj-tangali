@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/x-icon" href="images/suitcase.png" />
     <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
@@ -94,12 +95,71 @@
 
     <!-- Start about section -->
 
+
+
+
     <section class="about">
       <div class="container">
         <div class="row">
-          <div class="col-md-5">
+
+          <div class="col-md-6">
+                <img src="images/photo.png" class="img-fluid" alt="photo">
+          </div>
+
+          <div class="col-md-6">
+            <div class="card shadow border-0">
+              <div class="card-body">
+                <h2 class="about-title mt-3">A little about me</h2>
+                <p class="about-text">
+                  I'm a student software developer with a passion for developing
+                  and designing. I've been coding since I was 14, and over the
+                  years I have immersed myself in the world of programming and
+                  developed my skills to become a versatile developer.
+                </p>
+                <p class="about-text">
+                  Most recently, I've had the privilege to help numerous small
+                  businesses in bringing their ideas to life by providing them
+                  with great user experiences.
+                </p>
+
+                <p class="about-text">
+                  Languages and libraries I've been working with recently
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <section class="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
             <div class="card border-0 rounded-0 shadow-lg">
-              <div class="card-body"><img src="images/photo.png" alt="" /></div>
+              <div class="card-body">
+                <img src="images/photo.png" alt="" />
+    
               <div class="row"></div>
             </div>
           </div>
@@ -125,20 +185,29 @@
                 </p>
 
                 <p class="about-text">
-                  <li><i class="bi bi-caret-right-fill"></i>PHP</li>
+                  <div class="container">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <li><i class="bi bi-caret-right-fill"></i>PHP</li>
                   <li><i class="bi bi-caret-right-fill"></i>SQL</li>
                   <li><i class="bi bi-caret-right-fill"></i>HTML</li>
-
-                  <li><i class="bi bi-caret-right-fill"></i>MySQL</li>
-                  <li><i class="bi bi-caret-right-fill"></i>Symfony</li>
-                  <li><i class="bi bi-caret-right-fill"></i>Git</li>
+                      </div>
+                  <div class="col-md-6">
+                    <li><i class="bi bi-caret-right-fill"></i>MySQL</li>
+                    <li><i class="bi bi-caret-right-fill"></i>Symfony</li>
+                   <li><i class="bi bi-caret-right-fill"></i>Git</li>
+                      </div>
+                    </div>
+                  </div>
+         
+                </div>
                 </p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- End about section -->
 
@@ -149,13 +218,134 @@
     <section class="projects">
       <div class="container">
         <div class="row">
+
+
           <div class="col-md-12 text-center">
-            <h2 class="section-header">My work and projects</h2>
+            <h2 class="section-header"> <a href="work.html">My work and projects</a></h2>
+          </div>
+
+
+          <div class="col-md-6 mt-5">
+            <h6 class="project-type text-secondary">FEATURED PROJECT</h6>
+            <h2 class="project-name">dhiradj.io</h2>
+
+            <div class="card shadow border-0">
+              <div class="card-body p-4">
+                Having searched for many months and trying things like Webflow and WordPress, I couldn’t find a suitable portfolio solution. I came to the conclusion that I would have to build one custom and set out designing and building. After three iterations the website you’re on now is (hopefully) here to stay.
+              </div>
+            </div>
+            <p class="languages text-secondary mt-4">HTML5, CSS3, Bootstrap, AdobeCC</p>
+            <p class="links">
+              <i class="bi bi-box-arrow-up-right"></i>
+              &nbsp;
+              <i class="bi bi-github"></i>
+            </p>
+          </div>
+
+          <div class="col-md-6 mt-5">
+            <img src="images/project1.png" class="img-fluid" alt="">
+          </div>
+
+          
+          <div class="col-md-6 mt-5">
+            <img src="images/project2.png" class="img-fluid" alt="">
+          </div>
+
+          <div class="col-md-6 mt-5">
+            <h6 class="project-type text-secondary">PROJECT</h6>
+            <h2 class="project-name">Sopranos Pizza</h2>
+
+            <div class="card shadow border-0">
+              <div class="card-body p-4">
+                A website made for a fictional restaurant which offers an immersive and user-friendly experience, allowing users to order meals and drinks. Which are then available to view on the admin side.
+              </div>
+            </div>
+            <p class="languages text-secondary mt-4">HTML5, CSS3, Symfony, PHP, MariaDB, SQL, MySQL</p>
+            <p class="links">
+              <i class="bi bi-box-arrow-up-right"></i>
+              &nbsp;
+              <i class="bi bi-github"></i>
+            </p>
+          </div>
+
+
+
+
+          <div class="col-md-6 mt-5">
+            <h6 class="project-type text-secondary">PROJECT</h6>
+            <h2 class="project-name">MovieMeter</h2>
+
+            <div class="card shadow border-0">
+              <div class="card-body p-4">
+                A website made for a fictional cinema which allows users to express their opinion about movies that are currently playing. 
+              </div>
+            </div>
+            <p class="languages text-secondary mt-4">HTML5, CSS3, PHP, MariaDB, SQL, MySQL</p>
+            <p class="links">
+              <i class="bi bi-box-arrow-up-right"></i>
+              &nbsp;
+              <i class="bi bi-github"></i>
+            </p>
+          </div>
+
+          <div class="col-md-6 mt-5">
+            <img src="images/project3.png" class="img-fluid" alt="">
           </div>
         </div>
       </div>
     </section>
 
     <!--  End projects section -->
+
+
+
+
+    <!-- Start footer section -->
+
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-2">
+            <h3 class="footer-title-1 mt-3">
+              General
+            </h3>
+            <li><a href=""></a>Home</li>
+            <li><a href=""></a>Work</li>
+            <li><a href=""></a>Contact</li>
+          </div>
+
+          <div class="col-md-2">
+            <h3 class="footer-title-1 mt-3">
+              Links
+            </h3>
+            <li><a
+              href="https://www.linkedin.com/in/dhiradjtangali/"
+              target="_blank"
+              ><i class="bi bi-linkedin"></i
+            ></a></li>
+         <li>  <a
+          href="https://github.com/DhiradjT?tab=repositories"
+          target="_blank"
+          ><i class="bi bi-github"></i
+        ></a></li>
+       <li> <a
+        href="https://dribbble.com/Dr8x"
+        target="_blank"
+        ><i class="bi bi-dribbble"></i
+      ></a></li>
+         
+          </div>
+
+
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- End footer section -->
+
   </body>
 </html>
