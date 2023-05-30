@@ -15,6 +15,15 @@ h2 a {
     text-decoration: none;
 }
 
+nav.navbar {
+    background-color: #fff;
+}
+
+.menu {
+    width: 30px;
+    height: 30px;
+}
+
 h2 a:hover {
     color: #707070;
     text-decoration: none;
@@ -85,6 +94,10 @@ h6.project-type {
     font-weight: 700;
 }
 
+i.bi-box-arrow-up-right:hover {
+    color: #707070;
+}
+
 h2.project-name {
     font-weight: 700;
 }
@@ -118,6 +131,21 @@ start media query */
 
 
   @media screen and (max-width:700px) {
+
+    section.hero{
+        margin-top: 50px;
+    }
+
+    h1.hero-h1 {
+        font-size: 40px;
+        color: #000;
+        font-weight: 700;
+    }
+
+    h2.section-header {
+        font-size: 40px;
+        font-weight: 700;
+    }
 
     section.footer {
         height: 350px;
